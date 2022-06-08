@@ -1,0 +1,43 @@
+<style type="text/css">
+          nav,
+          ul,
+          li {
+            margin: 0;
+
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+          }
+
+          .style1 {
+            display: inline-block;
+            background-color: #eee;
+            margin: 0px;
+            padding: 5px;
+            color: #000;
+          }
+
+          .style1 a {
+            display: inline-block;
+            background-color: #f00;
+            padding: 5px;
+            color: #00f;
+          }
+
+          .style1 a+a {
+            background-color: #efe;
+          }
+
+          .style1 ul {
+            list-style: none;
+            display: inline-block;
+          }
+
+          .style1 li {
+            display: inline;
+          }
+
+          .style1 li+li a {
+            background-color: #efe;
+          }
+        </style>
