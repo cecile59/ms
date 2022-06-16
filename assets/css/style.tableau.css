@@ -1,0 +1,61 @@
+/*css*/
+
+#entete {
+  display: flex;
+  width: 100%;
+  height: auto;
+  color: #ff1494;
+  /*texte centré*/
+}
+
+#logo {
+  max-width: 30%;
+  height: 20%;
+}
+
+#titre {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+nav,
+ul,
+li {
+  display: inline-block;
+  color: #ff1494;
+}
+
+h2 {
+  color: #ff1494;
+  font-family: Verdana;
+  text-align: center;
+}
+
+
+
+.photo {
+  width: 310px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 20%;
+
+}
+
+.tableau1 {
+  width: 100%;
+  text-align: center;
+}
+
+
+td {
+  width: 10%;
+  margin-top: ;
+}
+
+
+@media screen and (max-width: 768px){
+    .photo {width: 100%;}
+
+}
