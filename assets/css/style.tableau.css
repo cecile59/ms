@@ -1,5 +1,6 @@
 /*css*/
 
+/* entéte*/
 #entete {
   display: flex;
   width: 100%;
@@ -20,12 +21,16 @@
   margin-bottom: 2%;
 }
 
+
 nav,
 ul,
 li {
   display: inline-block;
   color: #ff1494;
+  text-align: center;
 }
+
+/* ----- * ----- * ----- * ----- * ----- */
 
 h2 {
   color: #ff1494;
@@ -54,6 +59,7 @@ td {
   margin-top: ;
 }
 
+/* ----- * ----- * --- Responsive --- * ----- * ----- */
 
 @media screen and (max-width: 768px){
     .photo {width: 100%;}

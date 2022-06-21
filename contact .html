@@ -1,15 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.contact.css">
+    <!-- page CSS -->
     <title>Contact</title>
 </head>
+
 <body>
- <!-- <select> liste déroulante (formulaires) --> 
+    <!-- <select> liste déroulante (formulaires) -->
+
+    <header>
+
+        <div id="entete">
+            <img src="/ms/src/images/jarditou_logo.jpg" alt="logo" title="logo" id="logo">
+
+            <h2 class="one" id="titre"> Tout le jardin</h2>
+
+        </div>
+
+        <nav class="style 1">
+            <ul>
+                <li>Accueil</li>
+                <li>Tableau</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <div classe="promo">
+            <img src="/ms/src/images/promotion.jpg" alt="promo" title="promo" width="100%">
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <form action="destination.php" method="post">
+
+        <h2>Contact</h2>
+        <hr>
+        <p>* Ces zones sont obligatoires</p>
+
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <label for="nom">Nom*:</label><input type="text" name="nom" id="?"><br>
+            <label for="prenom">Prenom*:</label><input type="text" name="prenom"><br>
+            <br>
+            <label for="sex"> sex* : </label>
+            <input type="radio" name="sex" value="Féminin"> Féminin
+            <input type="radio" name="sex" value="Masculin"> Masculin<br>
+
+            <br>
+            <label for="date">Date de naissance * : </label><input type="date" name="ddn" id="date"><br>
+            <label for="code postal">Code postal* : </label><input type="email" name="email"><br>
+            <label for="nom">Adresse:</label><input type="text" name="Adresse"><br>
+            <label for="ville">Ville:</label><input type="text" name="ville"><br>
+
+            <label for="email">Email:</label><input type="email" name="email" value="   "><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend> Votre demande </legend>
+            <label for="couleur">Sujet * </label>
+            <select id="couleur">
+                <option value="Veuillez selectonner un sujet" selected>Veuillez selectonner un sujet</option>
+                <option value="Mes commandes">Mes commandes</option>
+                <option value="Question sur un produit">Question sur un produit</option>
+                <option value="Réclamation">Réclamation</option>
+                <option value="Autres">Autres</option>
+            </select>
+
+            <br>
+            <label for=" texte"> Votre question * :
+                <textarea name="texte">    </textarea>
+            </label>
+            <br>
+        
+        </fieldset>
+
+        <input type="checkbox" name="" value="formulaire"> * J'accepte le traitement informatique de ce formulaire
+
+        <br>
+
+
+        <br>
+
+        <button type="submit">Envoyer</button>
+
+
+        <button type="submit">Annuler</button>
+
+
+
+        <hr>
+
+
+
+        <footer>
+
+            <nav class="style 1">
+                <ul>
+                    <li>Mentions légales</li>
+                    <li>Horaires</li>
+                    <li>Plan du site</li>
+                </ul>
+            </nav>
+
+        </footer>
+
+
 
 
 
 </body>
+
 </html>
