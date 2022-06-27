@@ -22,18 +22,20 @@
 
         </div>
 
+
         <nav class="style 1">
             <ul>
-                <li>Accueil</li>
-                <li>Tableau</li>
-                <li>Contact</li>
+                <li><a href="/ms/index.html" title="index" target="_blank">Accueil</a></li>
+                <li><a href="/ms/tableau.html" title="tableau" target="_blank">Tableau</a></li>
+                <li><a href="/ms/contact.html" title="contact" target="_blank">Contact</a></li>
             </ul>
         </nav>
 
-        <div classe="promo">
-            <img src="/ms/src/images/promotion.jpg" alt="promo" title="promo" width="100%">
-        </div>
 
+        <div >
+            <img src="/ms/src/images/promotion.jpg" alt="promo" title="promo" id="promo" >
+        </div>
+ <!-- width="100%"-->
     </header>
 
 
@@ -54,20 +56,22 @@
 
         <fieldset>
             <legend>Coordonnées</legend>
-            <label for="nom">Nom*:</label><input type="text" name="nom" id="?"><br>
-            <label for="prenom">Prenom*:</label><input type="text" name="prenom"><br>
+            <label for="nom">Nom*:                  </label><input type="text" name="nom" id="nom"><br>
+            <label for="prenom">Prenom*:            </label><input type="text" name="prenom" id="prenom"><br>
             <br>
-            <label for="sex"> sex* : </label>
+            <label  > sex* : </label>
+           <!--  for="sex" pk faut pas le métre -->
             <input type="radio" name="sex" value="Féminin"> Féminin
             <input type="radio" name="sex" value="Masculin"> Masculin<br>
 
             <br>
-            <label for="date">Date de naissance * : </label><input type="date" name="ddn" id="date"><br>
-            <label for="code postal">Code postal* : </label><input type="email" name="email"><br>
-            <label for="nom">Adresse:</label><input type="text" name="Adresse"><br>
-            <label for="ville">Ville:</label><input type="text" name="ville"><br>
+            <label for="date">Date de naissance * : </label><input type="date" name="date" id="date"><br>
+            <label for="codepostal">Code postal* :  </label><input type="text" name="codepostal" id="codepostal"><br>
+                <!--   pk faut pas type="text" -->
+            <label for="Adresse">        Adresse:   </label><input type="text" name="Adresse" id="Adresse"><br>
+            <label for="ville">      Ville:         </label><input type="text" name="ville" id="ville"><br>
 
-            <label for="email">Email:</label><input type="email" name="email" value="   "><br>
+            <label for="email">       Email:        </label><input type="email" name="email" id="email" value="   "><br>
         </fieldset>
 
         <br>
@@ -77,49 +81,51 @@
             <label for="couleur">Sujet * </label>
             <select id="couleur">
                 <option value="Veuillez selectonner un sujet" selected>Veuillez selectonner un sujet</option>
-                <option value="Mes commandes">Mes commandes</option>
-                <option value="Question sur un produit">Question sur un produit</option>
-                <option value="Réclamation">Réclamation</option>
-                <option value="Autres">Autres</option>
+                <option value="Mes commandes">Mes commandes                               </option>
+                <option value="Question sur un produit">Question sur un produit  </option>
+                <option value="Réclamation">Réclamation                </option>
+                <option value="Autres">Autres               </option>
             </select>
 
             <br>
-            <label for=" texte"> Votre question * :
-                <textarea name="texte">    </textarea>
+            <label for="texte"> Votre question * :
+                <textarea id="texte" >    </textarea>
             </label>
             <br>
-        
+
         </fieldset>
 
-        <input type="checkbox" name="" value="formulaire"> * J'accepte le traitement informatique de ce formulaire
+        <div id="fin">
 
-        <br>
+            <input type="checkbox"  value="formulaire"> * J'accepte le traitement informatique de ce formulaire
 
-
-        <br>
-
-        <button type="submit">Envoyer</button>
+            <br>
 
 
-        <button type="submit">Annuler</button>
+            <br>
+
+            <button type="submit">Envoyer</button>
 
 
+            <button type="submit">Annuler</button>
+
+        </div>
 
         <hr>
 
+    </form>
 
+    <footer>
 
-        <footer>
+        <nav class="style 1">
+            <ul>
+                <li>Mentions légales</li>
+                <li>Horaires</li>
+                <li>Plan du site</li>
+            </ul>
+        </nav>
 
-            <nav class="style 1">
-                <ul>
-                    <li>Mentions légales</li>
-                    <li>Horaires</li>
-                    <li>Plan du site</li>
-                </ul>
-            </nav>
-
-        </footer>
+    </footer>
 
 
 
