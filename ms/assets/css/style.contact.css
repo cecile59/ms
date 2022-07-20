@@ -1,0 +1,88 @@
+/*css*/
+
+#entete {
+    display: flex;
+    color: #ff1494;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+#logo {
+    max-width: 30%;
+    height: 20%;
+
+}
+
+#titre {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+nav,
+ul,
+li {
+
+    color: #ff1494;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+h2 {
+    color: #ff1494;
+    text-align: center;
+    font-family: Verdana;
+}
+
+
+
+legend {
+    color: #ff1494;
+}
+
+
+
+button {
+    background-color: aquamarine;
+
+
+}
+
+fieldset {
+    padding-left: 30%;
+}
+
+p {
+    padding-left: 30%;
+}
+
+#fin {
+    padding-left: 30%;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+    form {
+
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #promo {
+        width: 100%;
+    }
+ 
+
+};

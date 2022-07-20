@@ -1,0 +1,105 @@
+/* CSS */
+
+#entete {
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: #ff1494;
+    /*texte centré*/
+}
+
+#logo {
+    max-width: 30%;
+    height: 20%;
+}
+
+#titre {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* Dimantion du body
+body {
+	min-height: 100%;
+	width: 750px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+*/
+
+nav,
+ul,
+li {
+    color: #ff1494;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    display: inline-block;
+}
+
+
+
+h2 {
+    color: #ff69b4;
+    font-family: verdana;
+    /* width: 100px; */
+    /* font-size: 20px; */
+    font-size: 2rem;
+    /* letter-spacing: 1px; */
+    text-align: center;
+}
+
+h3 {
+    color: #ff69b4;
+    font-family: verdana;
+    width: 100px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+p {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+
+/*      ----------    RESPONSIVE     -------                 */
+
+
+
+
+
+
+
+
+
+body {
+    min-height: 100%;/* Dimantion du body*/
+    /* width: padding: 0 10px;
+    margin: 0 auto; */
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        display: flex;
+    }
+    #main {
+        width: 60%;
+    }
+    .box {
+        width: 40%;
+    }
+    #promo{
+    width: 100% ;
+}
+}
