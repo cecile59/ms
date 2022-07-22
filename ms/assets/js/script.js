@@ -107,54 +107,98 @@ Si l'utilisateur entre un opérateur erroné, le programme affichera un message 
 Dans le cas contraire, le programme effectuera l'opération demandée (en prévoyant le cas d'erreur division par 0), puis affichera le résultat.
               -----*-----*-----*-----*-----
 
-var nombre_1 = prompt( "Saisie d'un nombres entiers");
-var nombre_2 = prompt(" Saisie d'un nombres entiers");
-var opérateur = prompt("Saisie d'un opérateur ");
+/*
 
-
-
-if(nombre)
-{
-     ( console.log (nombre_1 + opérateur + nombre_2));
-}
-else( opérateur != + )
-{
-       alert("opérateur erroné" ) ; 
-}*/
-
-
-var nombre_1=  Number(prompt("Choisi un nombre"));
-var opérateur = prompt (" Choisiser votre operateur( +, -, * ou / )");
-var nombre_2 = Number(prompt ("Choisi un 2eme nombre"));
+var nombre_1=  Number(prompt( " Choisi un nombre entier " ));
+var opérateur = prompt ( " Choisiser votre operateur( +, -, * ou / )" );
+var nombre_2 = Number(prompt ( " Choisi un 2eme nombre entier " ));
 var resultat = nombre_1 + opérateur + nombre_2 ;
 
-if ( opérateur =! " +, -, * ou / " )
+
+
+
+switch (opérateur)
+{   
+  case "+" :
+console.log ( nombre_1 + nombre_2);;  
+     break; 
+
+    
+  case "-" :
+       console.log ( nombre_1 - nombre_2);
+     break;  
+
+  case "*" :
+       console.log ( nombre_1 * nombre_2);
+     break;
+
+  case "/" :
+       console.log ( nombre_1 / nombre_2);
+     break;
+
+  default: ((opérateur =! '+') || (opérateur =! '-') || (opérateur =! '*') || (opérateur =! '/') )
+  {
+   alert("opérateur erroné");
+         }
+     
+} 
+/*
+
+
+
+/*                          pas bonne formulation préféreais case
+
+
+
+if ((opérateur =! '+') || (opérateur =! '-') || (opérateur =! '*') || (opérateur =! '/') )
 {
-       alert("opérateur erroné" ) ; 
-}
+ alert("opérateur erroné");
+       }
 
-
-else (opérateur == "+")
+ if (opérateur == "+")
 {
   console.log ( nombre_1 + nombre_2);
   
 }
 
 
-else ( opérateur == "-")
+else if ( opérateur == "-")
 {
    console.log ( nombre_1 - nombre_2);
 }
 
 
-else ( opérateur == "*")
+else if ( opérateur == "*")
 {
    console.log ( nombre_1 * nombre_2);
 }
 
 
-else ( opérateur == "/")
+else if ( opérateur == "/")
 {
    console.log ( nombre_1 / nombre_2);
 }
 
+*/
+
+              /*-----*-----*-----*-----*-----*
+              *-----*-----*-----*-----*-----*/
+
+               /*  Les boucles
+
+               Exercice 1 - Saisie
+Créer une page HTML qui demande à l'utilisateur un prénom.
+La page doit continuer à demander des prénoms à l'utilisateur jusqu'à ce qu'il laisse le champ vide.
+Enfin, la page affiche sur la console le nombre de prénoms et les prénoms saisis.
+              /*-----*-----*-----*-----*-----
+#prenom{
+prenoom = i
+while (i=0 ; ;i++)
+{
+       if 
+console.log( i )
+
+}
+}*/
+
+var prenom
